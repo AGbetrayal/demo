@@ -2,3 +2,30 @@ server:
   port: 8100
   servlet:
     context-path: /
+spring:
+  datasource:
+    name: hikari
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: admin
+    url: jdbc:mysql://192.168.1.13:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    hikari:
+      maximum-pool-size: 50
+      max-lifetime: 600000
+      minimum-idle: 10
+      connection-timeout: 30000
+      read-only: false
+      connection-test-query: SELECT 1 FROM DUAL
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+pagehelper:
+  reasonable: false
+  support-methods-arguments: true
+  params: count=countSql
+mybatis:
+  mapper-locations:
+    - classpath:mybatis/mappers/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
