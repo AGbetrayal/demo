@@ -1,25 +1,19 @@
 package com.jpa;
 
-import com.jpa.entity.user;
+import com.jpa.entity.User;
 import com.jpa.repository.UserRepository;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-public class demo {
+@EnableJpaRepositories(basePackages = "com.jpa.**")
+public class Demo {
 
     public static void main(String[] args) {
-        SpringApplication.run(demo.class, args);
+        SpringApplication.run(Demo.class, args);
     }
 
-    @Autowired
-    UserRepository userRepository;
-
-    @Test
-    public void tsest(){
-        user byId = userRepository.getById("1");
-        System.out.println(byId);
-    }
 }
