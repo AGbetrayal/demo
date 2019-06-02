@@ -8,8 +8,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
-#    url: jdbc:mysql://192.168.1.13:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
-    url: jdbc:mysql://192.168.61.128:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://192.168.1.13:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    #  url: jdbc:mysql://192.168.61.128:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     hikari:
       maximum-pool-size: 50
       max-lifetime: 600000

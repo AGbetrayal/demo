@@ -16,5 +16,5 @@ public class User {
     @Column
     private String email;
     @Column
-    private Date birth;
+    private String birth;
 }

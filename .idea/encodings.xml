@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa" charset="UTF-8" />
   </component>

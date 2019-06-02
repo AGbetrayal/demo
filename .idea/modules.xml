@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/authentication-api/authentication-api.iml" filepath="$PROJECT_DIR$/authentication-api/authentication-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-commons/core-commons.iml" filepath="$PROJECT_DIR$/core-commons/core-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-jpa/core-jpa.iml" filepath="$PROJECT_DIR$/core-jpa/core-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-web/core-web.iml" filepath="$PROJECT_DIR$/core-web/core-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-1/demo-1.iml" filepath="$PROJECT_DIR$/demo-1/demo-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa/jpa.iml" filepath="$PROJECT_DIR$/jpa/jpa.iml" />

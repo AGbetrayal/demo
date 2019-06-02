@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo-1" />
+        <module name="core-web" />
         <module name="authentication-api" />
+        <module name="core-commons" />
+        <module name="demo-1" />
         <module name="jpa" />
+        <module name="core-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="authentication-api" target="1.8" />
+      <module name="core-commons" target="1.8" />
+      <module name="core-jpa" target="1.8" />
+      <module name="core-web" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo-1" target="1.8" />
       <module name="jpa" target="1.8" />
@@ -20,6 +26,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core-commons" options="-parameters" />
+      <module name="core-jpa" options="-parameters" />
+      <module name="core-web" options="-parameters" />
       <module name="demo-1" options="-parameters" />
       <module name="jpa" options="-parameters" />
     </option>

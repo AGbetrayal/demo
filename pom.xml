@@ -18,6 +18,9 @@
         <module>demo-1</module>
         <module>authentication-api</module>
         <module>jpa</module>
+        <module>core-jpa</module>
+        <module>core-commons</module>
+        <module>core-web</module>
     </modules>
 
     <properties>
